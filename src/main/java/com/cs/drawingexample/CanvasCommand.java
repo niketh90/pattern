@@ -38,17 +38,17 @@ public class CanvasCommand  implements Command {
 	    }
 		
       */
-		
-		drawLine(0, 0, width-1, 0, '-');
-		drawLine(0, height-1, width-1, height-1, '-');
-		drawLine(0, 1, 0, height-2, '|');
+		ShapeRenderer shapeRender = new ShapeRenderer();
+		shapeRender.drawLine(0, 0, width-1, 0, '-');
+		shapeRender.drawLine(0, height-1, width-1, height-1, '-');
+		shapeRender.drawLine(0, 1, 0, height-2, '|');
 		for(int i=1;i<width-1;i++)
-			drawLine(i, 1, i,height-2, ' ');
-		drawLine(width-1,1,width-1,height-2,'|');
-		render();
+			shapeRender.drawLine(i, 1, i,height-2, ' ');
+		shapeRender.drawLine(width-1,1,width-1,height-2,'|');
+		shapeRender.render();
 	}
 	
-	public void drawLine(int x1, int y1, int x2, int y2, char mchar) {
+	/*public void drawLine(int x1, int y1, int x2, int y2, char mchar) {
 		for(int i=y1; i<=y2; i++) {
 			for(int j=x1; j<=x2; j++) {
 				canvasArr[i][j] = mchar;				
@@ -63,7 +63,7 @@ public class CanvasCommand  implements Command {
 				}
 				System.out.println();
 			}
-		}
+		}*/
   	 
 
 }

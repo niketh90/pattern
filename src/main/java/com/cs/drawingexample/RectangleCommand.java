@@ -15,11 +15,11 @@ public class RectangleCommand implements Command{
 
 	@Override
 	public void execute() {
-		new CanvasCommand().drawLine(x1,y1, x2, y1, ch);
-		new CanvasCommand().drawLine(x1,y1, x1, y2, ch);
-		new CanvasCommand().drawLine(x2,y1, x2, y2, ch);
-		new CanvasCommand().drawLine(x1,y2, x2, y2, ch);
-		new CanvasCommand().render();
+		new ShapeRenderer().drawLine(x1,y1, x2, y1, ch);
+		new ShapeRenderer().drawLine(x1,y1, x1, y2, ch);
+		new ShapeRenderer().drawLine(x2,y1, x2, y2, ch);
+		new ShapeRenderer().drawLine(x1,y2, x2, y2, ch);
+		new ShapeRenderer().render();
 		
 	}
 

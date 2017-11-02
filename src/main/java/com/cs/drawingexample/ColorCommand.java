@@ -12,7 +12,7 @@ public class ColorCommand implements Command{
 	@Override
 	public void execute() {
 		fillColor(x,y,ch);
-		new CanvasCommand().render();
+		new ShapeRenderer().render();
 	}
 
 	private void fillColor(int x, int y, char ch) {
