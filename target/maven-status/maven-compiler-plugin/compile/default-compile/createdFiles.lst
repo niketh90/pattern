@@ -1,2 +1,8 @@
-com/cs/drawingexample/App.class
+com/cs/drawingexample/draw/LineCommand.class
+com/cs/drawingexample/draw/ShapeRenderer.class
+com/cs/drawingexample/draw/ColorCommand.class
 com/cs/drawingexample/DrawExample.class
+com/cs/drawingexample/CommandInvoker.class
+com/cs/drawingexample/draw/CanvasCommand.class
+com/cs/drawingexample/Command.class
+com/cs/drawingexample/draw/RectangleCommand.class

@@ -1,2 +1,6 @@
-com/cs/drawingexample/AppTest.class
-com/cs/drawingexample/DrawTest.class
+com/cs/drawingexample/draw/LineCommandTest.class
+com/cs/drawingexample/draw/ShapeRendererTest.class
+com/cs/drawingexample/draw/CanvasCommandTest.class
+com/cs/drawingexample/DrawExampleTest.class
+com/cs/drawingexample/draw/ColorCommandTest.class
+com/cs/drawingexample/draw/RectangleCommandTest.class

@@ -1,2 +1,6 @@
-/Users/yeshwantgaunkar/eclipse-workspace/drawingexample/src/test/java/com/cs/drawingexample/AppTest.java
-/Users/yeshwantgaunkar/eclipse-workspace/drawingexample/src/test/java/com/cs/drawingexample/DrawTest.java
+/Users/yeshwantgaunkar/eclipse-workspace/drawingexample/src/test/java/com/cs/drawingexample/draw/LineCommandTest.java
+/Users/yeshwantgaunkar/eclipse-workspace/drawingexample/src/test/java/com/cs/drawingexample/DrawExampleTest.java
+/Users/yeshwantgaunkar/eclipse-workspace/drawingexample/src/test/java/com/cs/drawingexample/draw/ColorCommandTest.java
+/Users/yeshwantgaunkar/eclipse-workspace/drawingexample/src/test/java/com/cs/drawingexample/draw/RectangleCommandTest.java
+/Users/yeshwantgaunkar/eclipse-workspace/drawingexample/src/test/java/com/cs/drawingexample/draw/ShapeRendererTest.java
+/Users/yeshwantgaunkar/eclipse-workspace/drawingexample/src/test/java/com/cs/drawingexample/draw/CanvasCommandTest.java

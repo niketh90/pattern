@@ -32,6 +32,14 @@
   	 		<configuration>
   	 			<source>1.8</source>
   	 			<target>1.8</target>
+  	 			 <configuration>
+          	<archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <mainClass>com.cs.drawingexample.DrawExample</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
   	 		</configuration>
   	 	</plugin>
   	</plugins>
